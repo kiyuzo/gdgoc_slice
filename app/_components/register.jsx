@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const Register = () => {
   const [email, setEmail] = useState('');
@@ -80,9 +81,9 @@ const Register = () => {
         </form>
         <p className="text-center text-gray-500 text-xs">
           Already have an account?{' '}
-          <a href="/login" className="text-blue-500 hover:text-blue-700">
+          <Link href="/login" className="text-blue-500 hover:text-blue-700">
             Login
-          </a>
+          </Link>
         </p>
       </div>
     </div>
