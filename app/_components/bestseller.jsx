@@ -59,7 +59,7 @@ const Bestseller = () => {
       department: "English Department",
       originalPrice: "$16.48",
       discountedPrice: "$6.48",
-      image: "kaiikai.jpg",
+      image: "/bestsellers/product-1.png",
     },
     {
       id: 2,
@@ -67,7 +67,7 @@ const Bestseller = () => {
       department: "English Department",
       originalPrice: "$16.48",
       discountedPrice: "$6.48",
-      image: "kaiikai.jpg",
+      image: "/bestsellers/product-2.png",
     },
     {
       id: 3,
@@ -75,7 +75,7 @@ const Bestseller = () => {
       department: "English Department",
       originalPrice: "$16.48",
       discountedPrice: "$6.48",
-      image: "kaiikai.jpg",
+      image: "/bestsellers/product-3.png",
     },
     {
       id: 4,
@@ -83,7 +83,7 @@ const Bestseller = () => {
       department: "English Department",
       originalPrice: "$16.48",
       discountedPrice: "$6.48",
-      image: "kaiikai.jpg",
+      image: "/bestsellers/product-4.png",
     },
     {
       id: 5,
@@ -91,7 +91,7 @@ const Bestseller = () => {
       department: "English Department",
       originalPrice: "$16.48",
       discountedPrice: "$6.48",
-      image: "kaiikai.jpg",
+      image: "/bestsellers/product-5.png",
     },
     {
       id: 6,
@@ -99,7 +99,7 @@ const Bestseller = () => {
       department: "English Department",
       originalPrice: "$16.48",
       discountedPrice: "$6.48",
-      image: "kaiikai.jpg",
+      image: "/bestsellers/product-6.png",
     },
     {
       id: 7,
@@ -107,7 +107,7 @@ const Bestseller = () => {
       department: "English Department",
       originalPrice: "$16.48",
       discountedPrice: "$6.48",
-      image: "kaiikai.jpg",
+      image: "/bestsellers/product-7.png",
     },
     {
       id: 8,
@@ -115,7 +115,7 @@ const Bestseller = () => {
       department: "English Department",
       originalPrice: "$16.48",
       discountedPrice: "$6.48",
-      image: "kaiikai.jpg",
+      image: "/bestsellers/product-8.png",
     },
   ];
 
