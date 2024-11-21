@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useContext, useEffect } from 'react';
+import Link from 'next/link';
 import { CartWishlistContext } from './CartWishlist';
 
 const Shop = () => {
@@ -104,7 +105,7 @@ const Shop = () => {
     <div className="bg-[#FAFAFA] mx-4 lg:mx-32">
       <div className="p-8">
         <nav className="flex items-center justify-center md:justify-start">
-          <a href="/" className="text-black font-bold">Home</a>
+          <Link href="/" className="text-black font-bold">Home</Link>
           <svg className="mx-2 h-6 w-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
           </svg>
