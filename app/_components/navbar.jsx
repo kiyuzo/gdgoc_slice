@@ -85,10 +85,10 @@ const Navbar = () => {
           <button className="hover:text-gray-600 text-[#737373]">Pages</button>
         </div>
         <div className="flex flex-col lg:flex-row lg:space-x-4 space-y-4 lg:space-y-0 mt-4 lg:mt-0 justify-center items-center">
-          <button className="flex items-center hover:text-gray-600 text-[#23A6F0]">
+          <a href="/login" className="flex items-center hover:text-gray-600 text-[#23A6F0]">
             <img src="/icons/profile.svg" alt="profile" className="w-5 h-5 mr-2" />
             Login / Register
-          </button>
+          </a>
           <div className="flex items-center space-x-4">
             <button onClick={toggleSearch} className="hover:text-gray-600">
               <img src="/icons/search.svg" alt="search" className="w-5 h-5" />
